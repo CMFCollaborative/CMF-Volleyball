@@ -57,9 +57,17 @@ This is **not a bug or error**. GitHub Copilot correctly identified that there a
 
 ### Repository Configuration Suggestion
 Since this repository uses both `main` and `master`:
-- **Default branch** is currently set to `master` (per GitHub API)
-- Consider changing default branch to `main` (GitHub's current standard)
-- Archive or delete the redundant branch to avoid confusion
+- **Current default branch**: `master` (per GitHub API)
+- **Both branches are identical**: Consider consolidating to a single branch
+
+If you decide to migrate the default branch to `main`:
+1. Go to repository Settings → Branches
+2. Change the default branch from `master` to `main`
+3. Update any CI/CD pipelines, deployment scripts, and documentation
+4. Notify all contributors of the change
+5. Consider deleting the `master` branch after migration
+
+For detailed guidance, see: [GitHub's branch renaming documentation](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
 
 ## Related Documentation
 - `.github/copilot-instructions.md` - AI coding agent instructions

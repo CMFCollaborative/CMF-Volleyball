@@ -54,7 +54,7 @@ git log target-branch..source-branch
 **Note**: Empty PRs (with 0 changed files) cannot be reviewed by AI tools like GitHub Copilot. Ensure your branch has meaningful changes before opening a PR.
 
 ### Branch Management
-- **Default Branch**: `master` (consider migrating to `main` per GitHub standards)
+- **Default Branch**: `master`
 - Use feature branches for development work
 - Keep branches synchronized with the default branch to avoid conflicts
 
