@@ -33,7 +33,7 @@ CMF-Volleyball/
 **CRITICAL**: This repository uses a specific branching strategy for AI-assisted development:
 
 - **Feature branches**: Must follow pattern `claude/claude-md-<session-id>-<unique-id>`
-- **Current branch**: `claude/claude-md-mic9pyeaebzqiqub-01PLJbBfxHm3hBQYJKdWtJC7`
+- **Example branch**: `claude/claude-md-<session-id>-<unique-id>`
 - **Push requirements**: Always use `git push -u origin <branch-name>`
 - **Important**: Branches MUST start with `claude/` and end with matching session ID, or push will fail with 403 error
 
