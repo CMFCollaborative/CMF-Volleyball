@@ -259,7 +259,7 @@ List debugging tools and techniques as established
 5. **Document decisions** that future AI assistants should know
 
 ### GitHub CLI Note
-The `gh` CLI is not available in this environment. If GitHub issue/PR information is needed, ask the user to provide it directly.
+The `gh` CLI is not available in the AI assistant's execution environment. If GitHub issue/PR information is needed, ask the user to provide it directly.
 
 ### Testing Philosophy
 As testing practices are established:
